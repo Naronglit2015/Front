@@ -10,10 +10,14 @@ function App() {
   };
 
   return (
-    <div data-theme="" className="min-h-screen">
-      <h1 className="text-4xl text-pink-600 text-center border bg-ghost-400 py-5 m-6 font-bold">
-        Hello world!
-      </h1>
+    <div data-theme="" className="min-h-screen flex flex-col items-center justify-center">
+      <h1 style={{ width: '60%' }} className="text-5xl text-white text-center border py-5 m-6 font-bold rounded-md shadow-md bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700">
+  Hello world!
+</h1>
+
+
+
+
       <input
         type="checkbox"
         value="synthwave"
